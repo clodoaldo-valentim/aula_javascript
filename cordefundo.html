@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mudar a cor do fundo</h1>
+  <button onclick="mudarCorDeAmarelo()">Mudar cor de fundo</button>
+  <button onclick="mudarCorDeFundoPreto()">Mudar cor de preto</button>
+
+  <script>
+    //Cor do fundo amarelo
+    function mudarCorDeAmarelo() {
+      var novaCor = "#ffcc00"; 
+       
+      document.body.style.backgroundColor = novaCor;
+    }
+    //cor do fundo preta
+    function mudarCorDeFundoPreto() {
+      var novaCor = "#000"; 
+
+      document.body.style.backgroundColor = novaCor;
+    }
+  </script>
+</body>
+</html>
